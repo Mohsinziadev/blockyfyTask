@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 
-const categories = ["World", "Sports", "Technology", "US"];
+const categories = ["Front End Dev", "Devops", "Backend ", "React Native"];
 
 const SearchSec = (props) => {
   const { search, setSearch, selectedCategory, setSelectedCategory } = props;
@@ -42,7 +42,7 @@ const SearchSec = (props) => {
                   htmlFor=""
                   className="text-[0.6rem] absolute -bottom-6 font-light text-black "
                 >
-                  Filter the Articles
+                  Filter the Jobs
                 </label>
               </div>
               {isOpen && (

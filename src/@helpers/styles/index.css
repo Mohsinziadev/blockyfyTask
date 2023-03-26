@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+/* @import "../components/SliderView/SliderView.css"; */
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../styles/fonts/TTFirsNeue-Thin.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../styles/fonts/TTFirsNeue-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../styles/fonts/TTFirsNeue-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("../styles/fonts/TTFirsNeue-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+body {
+  @apply leading-[normal] m-0;
+  font-family: "TT Firs Neue" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* rotate hire me svg css */
+.rotationCustom {
+  animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* material ui inputs  */
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: #dee2e6 !important;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  min-width: fit-content;
+  padding: 0px 5px !important;
+  background-color: white;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  font-family: "TT Firs Neue";
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: "TT Firs Neue";
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 8rem !important;
+}
